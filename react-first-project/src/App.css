@@ -1,3 +1,10 @@
+
+/************ Default Css ************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /*custom fonts*/
 @font-face{
   font-family: Centra;
@@ -16,15 +23,19 @@
 }
 
 /*default css*/
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 html{
+
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+  padding: 0;
+  line-height: normal;
 }
 
 body{
@@ -37,6 +48,7 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
+
   margin: 0;
   padding: 0;
   line-height: normal;
