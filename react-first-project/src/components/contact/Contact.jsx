@@ -33,7 +33,7 @@ const Contact = () => {//this code is from emailjs
                     </div>
 
                     <div className="contact_card">
-                        <i className="bx bx-whatsapp contact_card-icon"></i>
+                        <i className="bx bxl-whatsapp contact_card-icon"></i>
 
                         <h3 className="contact_card-title">Whatsapp</h3>
                         <span className="contact_card-data">0703463998</span>
@@ -44,7 +44,7 @@ const Contact = () => {//this code is from emailjs
             </div>
 
             <div className="contact_content">
-                <h3 className="contact_title">write me your project</h3>
+                <h3 className="contact_title">Write Me </h3>
 
                 <form ref={form} onSubmit={sendEmail} className="contact_form">
                     <div className="contact_form-div">

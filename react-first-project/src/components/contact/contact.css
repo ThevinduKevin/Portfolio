@@ -106,6 +106,10 @@
     resize: none;
 }
 
+textarea{
+    resize: none;
+}
+
 @media screen and (max-width: 992px){
     .contact_container{
         column-gap: 3rem;

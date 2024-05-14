@@ -18,6 +18,7 @@
 .nav_logo, .nav_toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
+    font-size: 22px;
 }
 
 .nav_list{
@@ -42,6 +43,7 @@
 /*Active link*/
 .active-link, .nav_link:hover{
     color: var(--title-color-dark);
+    transform: scale(1.1);
 }
 
 .scroll-header{
