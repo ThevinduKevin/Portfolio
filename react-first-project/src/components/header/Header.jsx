@@ -33,20 +33,26 @@ const Header = () => {
                     </li>
 
                     <li className="nav_item">
-                        <a href="#skills" onClick={() => setActiveNav('#skills')} classNAme={activeNav === "#skills" ? "nav_link active-link" : "nav_link"}>
-                            <i className="uil uil-file-alt nav_icon"></i>Skills
+                        <a href="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === "#skills" ? "nav_link active-link" : "nav_link"} >
+                            <i className="uil uil-user nav_icon"></i>Skills
                         </a>
                     </li>
 
                     <li className="nav_item">
-                        <a href="#services" onClick={() => setActiveNav('#services')} classNAme={activeNav === "#services" ? "nav_link active-link" : "nav_link"}>
-                            <i className="uil uil-briefcase-alt nav_icon"></i>Services
+                        <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === "#services" ? "nav_link active-link" : "nav_link"} >
+                            <i className="uil uil-user nav_icon"></i>Services
                         </a>
                     </li>
 
                     <li className="nav_item">
-                        <a href="#contact" onClick={() => setActiveNav('#contact')} classNAme={activeNav === "#contact" ? "nav_link active-link" : "nav_link"}>
-                            <i className="uil uil-message nav_icon"></i>Contact
+                        <a href="#qualifications" onClick={() => setActiveNav('#qualifications')} className={activeNav === "#qualifications" ? "nav_link active-link" : "nav_link"} >
+                            <i className="uil uil-user nav_icon"></i>Qualifications
+                        </a>
+                    </li>
+
+                    <li className="nav_item">
+                        <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === "#contact" ? "nav_link active-link" : "nav_link"} >
+                            <i className="uil uil-user nav_icon"></i>Contact
                         </a>
                     </li>
                 </ul>
