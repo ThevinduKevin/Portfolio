@@ -51,7 +51,7 @@ const Services = () => {
             <div className="services_content">
               <div>  
                 <i className="uil uil-arrow services_icon"></i>
-                <h3 className="services_title">UI/UX <br/> Designer</h3>
+                <h3 className="services_title">DevOps <br/> Engineer</h3>
               </div>
 
             <span onClick={() => toggleTab(2)} className="services_button">View More <i className="uil uil-arrow-right services_button-icon"></i></span>

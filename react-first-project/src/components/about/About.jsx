@@ -16,7 +16,7 @@ const About = () => {
             <div className="about_data">
                 <Info />
 
-                <p className="about_description">I am a dedicated full stack engineer currently completing my undergraduate degree.
+                <p className="about_description">I am a dedicated full stack and DevOps engineer currently completing my undergraduate degree.
                  I specialize in both front-end and back-end development, creating dynamic and efficient web applications. Passionate 
                  about learning and innovation, I am eager to apply my skills in real-world projects and stay updated with the latest technologies.</p>
 
